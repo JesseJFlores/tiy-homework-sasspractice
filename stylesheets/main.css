@@ -1,0 +1,68 @@
+button {
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: inherit; }
+
+header {
+  background: #94b4b3;
+  text-align: center;
+  margin: 0px; }
+  header ul {
+    margin: 0; }
+  header li {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    header li a {
+      text-decoration: none;
+      color: #3c4242;
+      font-family: sans-serif;
+      text-transform: uppercase;
+      position: relative;
+      bottom: 40px;
+      padding: 20px; }
+
+.hero {
+  background-image: url(" https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=0404a6987743c9f447f3abde5e2a34d8");
+  background-size: cover;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px; }
+  .hero h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-bottom: 0;
+    color: #3c4242; }
+  .hero h3 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 0;
+    color: #3c4242; }
+  .hero button:hover {
+    background-color: #d3795f; }
+
+.banner {
+  text-align: center;
+  background-color: #d3795f;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .banner h3 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #3c4242;
+    font-size: 24px;
+    font-weight: normal; }
+  .banner button:hover {
+    background-color: #3c4242; }
+  .banner button {
+    margin-top: 10px; }
+
+/*# sourceMappingURL=main.css.map */
